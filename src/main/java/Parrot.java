@@ -8,4 +8,9 @@ public class Parrot extends Bird {
     public String toString() {
         return "I'm a parrot";
     }
+
+    @Override
+    public int getValue() {
+        return 20;
+    }
 }
